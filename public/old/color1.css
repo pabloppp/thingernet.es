@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, #middleline .roungloog  {  background:url(../images/mainbg.jpg) repeat 0 0; color:#655a5a; }
+.devidehr { background:url(../images/borderbottom.jpg) repeat-x 0 bottom;  }
+input, select, textarea {  background-color:  #F4F4F2;    border: 1px solid #D6D4CB; color:#555  }
+input:focus, select:focus, textarea:focus {background-color:#fff}
+
+input[type=submit], input[type=reset]{background-color:#ab381b; border:3px solid #d6d4cb;} 
+a.linkbutton, a.linkbuttonsmall, a.linkbuttonmiddum, a.linkbuttonbig, a.linkbuttonlarg, a.linkbuttonlarge {background-color:#ab381b; border:3px solid #d6d4cb;  color:#fff;  }
+a:hover.linkbutton, a:hover.linkbuttonsmall, a:hover.linkbuttonmiddum, a:hover.linkbuttonlarge, a:hover.linkbuttonbig, input[type=submit]:hover, input[type=reset]:hover {background-color:#483b3a; color:#fff}
+.highlight {color:#ab381b}
+
+
+/*background image*/
+#topnav ul > li.active, #topnav ul > li:hover, #topnav ul ul, #flexslider, #flexsliderservices, ul.featured li img, .es-carousel ul li img, .imgbrdleft, .imgbrdrihgt, ul.team li img, .imgbrdboth, #portfoliocontainer ul a.fancyboxpopup, .portfolioslider, .bloggallery, .blogslider, #contactmap  {background: #fff url(../images/texturebg.png) repeat 0; }
+#middleline, #footer  { background:url(../images/midlineborderbg.jpg) repeat 0; }
+#middleline .midlinebg  { background:url(../images/midlinebg.jpg) repeat 0;  }
+h2.titles, .heading1  { background:url(../images/titlebg.jpg) no-repeat 0 0; }
+.footerbg { background:url(../images/footerbg.jpg) repeat 0; }
+.togglehandle.active { background:#f4f4f2 url("../images/accrodianicon.png") no-repeat right 5px; }
+
+
+/*background color*/
+#topnav ul li.active a, #topnav ul > li:hover > a, #topnav ul li ul > li:hover > a, #topnav ul li ul li:hover, .portfolioslider:hover,  #topnav ul li ul li, #topnav ul li.active a,  #topnav ul li ul > li.submenu:hover > a, #topnav li.submenu, .headerstrip    { background-color:#483b3a; }
+.flexslider ul, .flexsliderservices ul, .es-carousel ul li img:hover,  ul.team li img:hover, #portfoliocontainer ul a:hover.fancyboxpopup, #portfoliocontainer ul li a:hover img, .bloggallery:hover, .blogslider:hover, ul.popular li img, .blogleft .comment img, ul.featured li img:hover  { background-color:#fff }
+#filters a.selected, .paging li.current   { background-color:#AB381B; }
+
+
+.tabs li.active { background:#f4f4f2; border-bottom:1px solid #f4f4f2 }
+.tabs li {  border:1px solid #D6D4CB;  border-bottom:none }
+.tabdata { border:1px solid #D6D4CB;  background:#f4f4f2; }
+
+
+.accrodian-trigger {  border:1px solid #D6D4CB; background: url("../images/accrodianicon.png") no-repeat right 5px;  }
+
+.accrodian-trigger.active { background:#f4f4f2 url("../images/accrodianicon.png") no-repeat right -35px; }
+.togglehandle { border:1px solid #D6D4CB; background: url("../images/accrodianicon.png") no-repeat right -35px;  }
+.togglehandle.active { background:#f4f4f2 url("../images/accrodianicon.png") no-repeat right 5px; }
+
+
+
+#topnav ul li ul > li.submenu:hover > a { background:#483b3a url(../images/smallarrow.png) no-repeat 184px 10px!important }
+#topnav li.submenu { background: #483b3a url(../images/smallarrow.png) no-repeat 184px 15px!important; }
+
+
+/*text color*/
+#topnav ul li a, .es-carousel ul li h3, .leftline, ul.team li a span, ul.sitemap li a, .pagination a:hover, .accrodian-trigger, .togglehandle, .tabs li a, #flexslider .flex-caption, ul.featured li a h3,  ul.team li:hover h3.membername    { color:#483b3a; }
+a, .es-carousel ul li:hover h3, .es-carousel ul li span.deatils b, h2.titles span, ul.featured li a span, .heading1 span, ul.sitemap > li > a, .accrodian-trigger.active, .togglehandle.active, #flexslider .flex-caption b, ul.featured li:hover h3, h2.titles span, .tabs li.active a  { color:#AB381B }
+ul.footersection li ul li a, #topnav ul li ul li a, #middleline .midlinebg h1.textpadding, #footer   { color:#929291;}
+#topnav ul li.active a, #topnav ul > li:hover > a, #topnav ul li ul > li:hover > a, ul.footersection li ul li a:hover, #twitter a, #filters a.selected, .publisheddate .date, .paging li.current, .pagination a:hover, ul.footersection li.testimonial span, #topnav ul li ul > li:hover > a, #topnav ul li ul li:hover a, .ei-slider-loading, .ei-title h2, #middleline .midlinebg h1.textpadding span, ul.tags li a,  #topnav ul li.active a    {color:#fff }
+.heading1, .heading2, .heading3, .heading4, .heading5, h2.titles,  a.entrytitle   {color:#534645;}
+a:hover, a.entrytitle:hover, .paging a, .accrodian-trigger:hover, .togglehandle:hover  { color: #000; }
