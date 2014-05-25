@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'thingernetDB',
-			'username'  => 'ittman',
-			'password'  => 'Pintada2006',
+			'database'  => 'miteleco_thingernetDB',
+			'username'  => 'miteleco_ittman',
+			'password'  => 'Blanca2007',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_bin',
 			'prefix'    => '',
