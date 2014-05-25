@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 class Categoria extends Eloquent {
 
+    public $incrementing = false;
+    public $timestamps = false;
+
     public function getNombre()
     {
         return $this->id;

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="thingernet DEV" stopOnFirstError="true" uploadOnCheckin="0d1f626f-010f-4229-9a52-671c0f21229f" filePermissions="420" compareModeInSync="TIMESTAMP">
+    <serverData>
+      <paths name="thingernet DEV">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/web" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="thingernet" />
+  </component>
+</project>
+

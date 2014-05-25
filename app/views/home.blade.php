@@ -9,7 +9,7 @@
 
 <div id="sloganRow">
     <div class="container">
-        <h1>Thingernet: <br/>The Internet in the Things. </h1>
+        <h1>Thingernet: <br/>The Internet <font color = #ff5555 >in</font> the Things. </h1>
     </div>
 </div>
 

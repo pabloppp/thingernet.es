@@ -5,6 +5,8 @@ use Illuminate\Auth\Reminders\RemindableInterface;
 
 class Post extends Eloquent {
 
+    protected $incrementing = false;
+
     public function getNombre()
     {
         return $this->titulo;
