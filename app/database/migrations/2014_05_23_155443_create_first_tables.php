@@ -14,13 +14,13 @@ class CreateFirstTables extends Migration {
 	{
         Schema::create('categorias', function($table)
         {
-            $table->string('id')->primary();
+            $table->string('id', 120)->primary();
             $table->string('descripción');
         });
 
         Schema::create('posts', function($table)
         {
-            $table->string('id')->primary();
+            $table->string('id', 120)->primary();
             $table->string('titulo')->unique();
             $table->string('contenido');
             $table->string('imagen')->nullable();
@@ -30,8 +30,8 @@ class CreateFirstTables extends Migration {
 
         Schema::create('categoria_post', function($table)
         {
-            $table->string('post_id');
-            $table->string('categoria_id');
+            $table->string('post_id', 120);
+            $table->string('categoria_id', 120);
             $table->primary(array('post_id', 'categoria_id'));
             $table->foreign('post_id')->references('id')->on('posts')->onDelete('cascade')->onUpdate('cascade');
             $table->foreign('categoria_id')->references('id')->on('categorias')->onDelete('cascade')->onUpdate('cascade');
@@ -62,10 +62,10 @@ class CreateFirstTables extends Migration {
 	 */
 	public function down()
 	{
-        Schema::drop('categoria_post');
-        Schema::drop('comentarios');
-        Schema::drop('posts');
-        Schema::drop('categorias');
+        Schema::dropIfExists('categoria_post');
+        Schema::dropIfExists('comentarios');
+        Schema::dropIfExists('posts');
+        Schema::dropIfExists('categorias');
 	}
 
 }
